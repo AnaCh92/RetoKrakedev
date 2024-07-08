@@ -1,0 +1,18 @@
+/* Estilos para el cuerpo y los párrafos */
+body {
+    font-family: Arial, sans-serif; /* Fuente para todo el documento */
+    line-height: 1.6; /* Espacio entre líneas */
+    margin: 20px; /* Márgenes externos */
+    padding: 0; /* Relleno interno */
+    background-color: #f8f8f8; /* Color de fondo */
+}
+
+p {
+    margin-bottom: 20px; /* Margen inferior para los párrafos */
+    text-align: justify; /* Alineación justificada */
+}
+
+h3 {
+    color: #333; /* Color de texto para los títulos */
+    margin-top: 30px; /* Margen superior para los títulos */
+}

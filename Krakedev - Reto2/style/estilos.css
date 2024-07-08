@@ -1,0 +1,46 @@
+/* Estilos generales para las cajas */
+.caja {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+/* Estilos específicos para las imágenes dentro de las cajas */
+.caja img {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Borde redondeado */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+#parrafo {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+#container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: #f0f0f0; /* Color de fondo del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+h1 {
+    text-align: center; /* Centrar el texto horizontalmente */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}

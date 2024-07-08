@@ -1,0 +1,31 @@
+/* Estilos para los enlaces <a> dentro de <li> */
+ul li a {
+    display: block; /* Convierte los enlaces en bloques */
+    padding: 10px 20px; /* Espaciado interno */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Fuente en negrita */
+}
+
+
+#container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: #f0f0f0; /* Color de fondo del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+input[type="button"] {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Borde del botón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+img {
+    display: block; /* Hace que la imagen sea un bloque para poder centrarla */
+    margin: 0 auto; /* Margen automático a la izquierda y derecha para centrarla */
+    border-radius: 25px; /* Establece un borde redondeado de 25px para todos los lados */
+}
