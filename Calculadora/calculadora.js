@@ -54,5 +54,5 @@ dividir = function(){
 limpiar = function(){
     document.getElementById("txtValor1").value = "0";
     document.getElementById("txtValor2").value = "0";
-    document.getElementById("lblResultado").innerText = "Resultado: 0";
+    document.getElementById("lblResultado").innerText = "Resultado: ";
 }
